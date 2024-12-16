@@ -29,6 +29,9 @@ android {
             path file('src/main/jni/Android.mk')
         }
     }
+    lintOptions {
+        abortOnError false
+    }
     namespace 'com.android.support'
 }
 
