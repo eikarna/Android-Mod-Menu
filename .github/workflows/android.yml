@@ -33,3 +33,4 @@ jobs:
         name: Release ${{github.run_number}}
         files: |
            app/build/outputs/apk/debug/app-debug.apk
+           app/build/cxx/Release/*/obj/local/*
